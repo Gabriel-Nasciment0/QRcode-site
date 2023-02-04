@@ -15,13 +15,13 @@ body{
     display: flex;
     font-size: 15px;
 }
-
+/* tamanho do cartâo */
 .container{   
     min-width: 350px;
     max-width: 1440px;
     margin:0 auto;
 }
-
+/* estilização do cartâo */
 .card{
     background-color: white;
     padding: 18px;
@@ -29,22 +29,21 @@ body{
     margin: 0 1rem;
     border-radius: 20px;
 }
-
+/* imagem */
 .card img{
-
     width: 100%;
     border-radius: 20px;
 }
-
+/* texto */
 .text{
     padding: 22px 10px;
 }
-
+/* titulo */
 .text h2{
     color: hsl(228, 44%, 22%);
     padding-bottom: 15px;
 }
-
+/* paragrafo */
 .text p{
     color: hsl(220, 15%, 55%);
 }
