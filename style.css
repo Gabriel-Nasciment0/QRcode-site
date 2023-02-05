@@ -1,49 +1,49 @@
 /* regras gerais */
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 /* regras da pagina */
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 /* corpo */
-body{
-    font-family: 'Outfit', sans-serif;
-    background-color: hsl(212, 45%, 89%);
-    align-items: center;
-    min-height: 100vh;
-    display: flex;
-    font-size: 15px;
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  font-size: 15px;
 }
 /* tamanho do cartâo */
-.container{   
-    min-width: 350px;
-    max-width: 1440px;
-    margin:0 auto;
+.container {
+  min-width: 350px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 /* estilização do cartâo */
-.card{
-    background-color: white;
-    padding: 18px;
-    text-align: center; 
-    margin: 0 1rem;
-    border-radius: 20px;
+.card {
+  background-color: white;
+  padding: 18px;
+  text-align: center;
+  margin: 0 1rem;
+  border-radius: 20px;
 }
 /* imagem */
-.card img{
-    width: 100%;
-    border-radius: 20px;
+.card img {
+  width: 100%;
+  border-radius: 20px;
 }
 /* texto */
-.text{
-    padding: 22px 10px;
+.text {
+  padding: 22px 10px;
 }
 /* titulo */
-.text h2{
-    color: hsl(228, 44%, 22%);
-    padding-bottom: 15px;
+.text h2 {
+  color: hsl(228, 44%, 22%);
+  padding-bottom: 15px;
 }
 /* paragrafo */
-.text p{
-    color: hsl(220, 15%, 55%);
+.text p {
+  color: hsl(220, 15%, 55%);
 }
